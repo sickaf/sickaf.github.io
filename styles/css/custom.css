@@ -1,13 +1,24 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+}
 
 body {
   font-size: 10px;
-  color: #747474;
-  background: #f1f1f1;
+  color: #cccccc;
   text-align: center;
+  background-image: radial-gradient(#444444, #222222);
 }
 
-@font-face {
-  font-family: 'Raleway', sans-serif;
+
+img {
+  height:150px;
+  width:150px;
+}
+
+h1 {
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 25px;
 }
 
 #sickaf {
@@ -15,32 +26,56 @@ body {
   font-weight: 200;
   font-size: 16px;
   margin: 0px auto;
-  padding: 50px 50px 40px;
+  padding-top: 50px;
+  padding-bottom: 40px;
   max-width: 800px;
 }
 
-#intro{
-  font-size:40px;
-  padding: 50px 0px 0px 0px;
+#sickaf-header {
+margin-top: 10px;
+text-align: left;
+font-size: 14px;
+opacity: 0;
 }
 
-.img-circle{
-  margin-top: 40px;
+.sick-header {
+  opacity:0;
 }
 
-#logo {
+#sickaf-logo {
   border-radius: 200px;
   height: 200px;
   width: 200px;
 }
 
-img {
-height:150px;
-width:150px;
+#sickaf-intro{
+  font-size:80px;
+  padding: 50px 0px 0px 0px;
 }
 
-h1 {
-	margin-left:auto;
-	margin-right:auto;
-  margin-bottom: 25px;
+#sickaf-teaser{
+  font-size:20px;
+  padding: 10px 0px 0px 0px;
+}
+
+
+.sickaf-img-circle{
+  margin-top: 40px;
+  width: 140px;
+  height: 140px;
+}
+
+.sickaf-fade {
+  opacity: 0;
+  margin-top: 25%;
+}
+
+.sickaf-cherp {
+}
+
+.sickaf-weather {
+}
+
+.row {
+  padding-top: 60px;
 }
